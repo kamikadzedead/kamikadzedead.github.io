@@ -1,0 +1,8 @@
+Sitemap: https://cdn.rawgit.com/kamikadzedead/threeinone.club/sitemap.xml
+User-Agent: *
+Disallow: /build/
+Disallow: /data/refill.txt
+Disallow: /data/withdraw.txt
+Allow: /
+Allow: /refill/
+Allow: /withdraw/

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export ROOT=`dirname $0`
+cat ${ROOT}/data/$1.txt | sort | uniq > ${ROOT}/data/$1
+mv ${ROOT}/data/$1 ${ROOT}/data/$1.txt
